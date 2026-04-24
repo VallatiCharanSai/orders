@@ -39,6 +39,13 @@
                                 <PropertyValue Property="Value" Path="Freight"/>
                             </Record >
                         </Collection>
+                        <Annotation Term="UI.SelectionFields">
+                        <Collection>
+                            <PropertyPath>ShipCountry</PropertyPath>
+                            <PropertyPath>Freight</PropertyPath>
+                            <PropertyPath>OrderDate</PropertyPath>
+                        </Collection>
+                    </Annotation>
                     </Annotation>
                </Annotations >
         </Schema>
