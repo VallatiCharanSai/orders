@@ -47,6 +47,15 @@
                                 <PropertyPath>OrderDate</PropertyPath>
                         </Collection>
                     </Annotation>
+                    <Annotation Term="UI.PresentationVariant">
+                        <Record>
+                            <PropertyValue Property="GroupBy">
+                                <Collection>
+                                    <PropertyPath>ShipCountry</PropertyPath>
+                                </Collection>
+                            </PropertyValue>
+                        </Record>
+                    </Annotation>
                </Annotations >
         </Schema>
     </edmx:DataServices>
